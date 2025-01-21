@@ -8,7 +8,7 @@ export default function Page() {
   const [isActive, setIsActive] = useState(false)
 
   return (
-    <div className="h-[100vh] flex items-center justify-center">
+    <main className="h-[100vh] flex items-center justify-center">
       <h1
         onMouseOver={() => {
           setIsActive(true)
@@ -23,6 +23,6 @@ export default function Page() {
 
       <GradientCursor isActive={isActive} />
       {/* <Cursor isActive={isActive} /> */}
-    </div>
+    </main>
   )
 }

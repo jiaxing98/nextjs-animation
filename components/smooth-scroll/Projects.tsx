@@ -1,8 +1,8 @@
+import styles from '@/app/smooth-scroll/style.module.css'
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
 import Image from 'next/image'
 import { useLayoutEffect, useRef, useState } from 'react'
-import styles from './style.module.css'
 
 const projects = [
   {
@@ -43,7 +43,7 @@ export const Projects = () => {
       <div className="flex h-[700px] justify-between gap-[5%]">
         <div ref={imageContainer} className="relative h-full w-[40%]">
           <Image
-            src={`/images/${projects[selectedProject].src}`}
+            src={`/images/smooth-scroll/${projects[selectedProject].src}`}
             alt="project image"
             className="object-cover"
             fill

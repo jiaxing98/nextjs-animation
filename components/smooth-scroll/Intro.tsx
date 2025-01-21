@@ -32,7 +32,7 @@ export const Intro = () => {
         className="absolute h-[140vh] w-full brightness-[60%]"
       >
         <Image
-          src={'/images/background.jpeg'}
+          src={'/images/smooth-scroll/background.jpeg'}
           alt="background image"
           className="object-cover"
           fill
@@ -47,7 +47,7 @@ export const Intro = () => {
           className="absolute h-[475px] w-[350px] brightness-[70%]"
         >
           <Image
-            src={`/images/intro.png`}
+            src={`/images/smooth-scroll/intro.png`}
             alt="intro image"
             className="object-cover object-top"
             fill
