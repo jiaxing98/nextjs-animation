@@ -1,0 +1,7 @@
+.column {
+  @apply flex h-full w-[20%] text-[1.6vw];
+}
+
+.column:last-of-type {
+  @apply items-end text-[1vw];
+}
