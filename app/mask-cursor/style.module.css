@@ -1,0 +1,17 @@
+.mask,
+.body {
+  @apply flex h-full w-full justify-center items-center text-[#afa18f] text-[64px] leading-[66px] cursor-default font-semibold;
+}
+
+.mask {
+  mask-image: url('../../public/images/mask-cursor/mask.svg');
+  mask-repeat: no-repeat;
+  mask-size: 40px;
+  background: #ec4e39;
+  position: absolute;
+  color: black;
+}
+
+:global(p) {
+  @apply w-[1000px] p-10;
+}
