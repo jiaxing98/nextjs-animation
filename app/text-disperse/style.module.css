@@ -1,0 +1,16 @@
+.introLine {
+  @apply flex text-[6vw] justify-between uppercase;
+}
+
+.introLine p {
+  @apply m-0;
+}
+
+.introLine:nth-of-type(5),
+.introLine:nth-of-type(6) {
+  @apply inline-flex;
+}
+
+.introLine:nth-of-type(6) {
+  @apply relative -right-10;
+}
