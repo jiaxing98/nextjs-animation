@@ -1,0 +1,60 @@
+.container {
+  @apply flex h-screen w-screen justify-center items-center p-24;
+}
+
+.body {
+  @apply flex flex-col items-end w-[70vw];
+}
+
+.line {
+  @apply relative w-full h-[1px] mb-5;
+}
+
+.line svg {
+  @apply absolute h-[500px] w-full top-[-250px];
+}
+
+.line svg path {
+  @apply stroke-white stroke-[1px] fill-none;
+}
+
+.line .box {
+  @apply relative h-10 w-full -top-5 z-[1];
+}
+
+.line .box:hover {
+  @apply h-[500px] top-[-250px];
+}
+
+.description,
+.tagsContainer {
+  @apply flex justify-end;
+}
+
+.description p {
+  @apply text-[12px] m-0;
+}
+
+.description p:nth-of-type(1) {
+  @apply mt-2;
+}
+
+.description p:nth-of-type(2) {
+  @apply text-[28px] w-[700px] ml-[30px];
+}
+
+.tagsContainer {
+  @apply flex mt-[50px];
+}
+
+.tagsContainer p {
+  @apply m-0;
+}
+
+.tags {
+  @apply flex flex-wrap w-[700px] ml-[30px] gap-[10px];
+}
+
+.tags p {
+  @apply border-[1px] border-solid border-white rounded-[20px] px-[10px] py-[12px] text-[16px] uppercase;
+}
