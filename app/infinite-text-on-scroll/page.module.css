@@ -1,0 +1,16 @@
+.sliderContainer {
+  @apply absolute;
+  top: calc(100vh - 350px);
+}
+
+.slider {
+  @apply relative whitespace-nowrap;
+}
+
+.slider p {
+  @apply relative text-white m-0 text-[230px] font-medium pr-[50px];
+}
+
+.slider p:nth-of-type(2) {
+  @apply absolute top-0 left-full;
+}
