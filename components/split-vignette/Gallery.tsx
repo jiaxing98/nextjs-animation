@@ -1,7 +1,6 @@
-import Image from 'next/image'
-import React from 'react'
-import styles from '@/app/split-vignette/style.module.css'
 import { motion, MotionValue } from 'framer-motion'
+import Image from 'next/image'
+import styles from './style.module.css'
 
 const Gallery = ({
   handle,

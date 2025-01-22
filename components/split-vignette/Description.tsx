@@ -1,7 +1,7 @@
 import { motion, MotionValue } from 'framer-motion'
 import Image from 'next/image'
 import React, { useState } from 'react'
-import styles from '@/app/split-vignette/style.module.css'
+import styles from './style.module.css'
 
 export default function Description({
   projects,

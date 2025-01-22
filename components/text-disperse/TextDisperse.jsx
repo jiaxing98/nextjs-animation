@@ -1,6 +1,6 @@
 'use client'
 
-import styles from '@/app/text-disperse/style.module.css'
+import styles from '@/app/text-disperse/page.module.css'
 import { motion } from 'framer-motion'
 import { useState } from 'react'
 import { disperse } from './animation'

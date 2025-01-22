@@ -1,8 +1,8 @@
-import styles from '@/app/smooth-scroll/style.module.css'
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
 import Image from 'next/image'
 import { useLayoutEffect, useRef, useState } from 'react'
+import styles from './style.module.css'
 
 const projects = [
   {

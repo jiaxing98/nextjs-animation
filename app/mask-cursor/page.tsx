@@ -3,7 +3,7 @@
 import useMousePosition from '@/components/mask-cursor/useMousePosition'
 import { motion } from 'framer-motion'
 import React, { useState } from 'react'
-import styles from './style.module.css'
+import styles from './page.module.css'
 
 export default function Page() {
   const [isHovered, setIsHovered] = useState(false)

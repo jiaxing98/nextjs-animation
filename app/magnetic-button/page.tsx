@@ -2,7 +2,7 @@
 
 import FramerMagnetic from '@/components/magnetic-button/FramerMagnetic'
 import GsapMagnetic from '@/components/magnetic-button/GsapMagnetic'
-import styles from './style.module.scss'
+import styles from './page.module.scss'
 
 export default function Page() {
   return (

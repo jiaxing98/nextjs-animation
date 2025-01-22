@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import React, { useRef } from 'react'
-import styles from '@/app/mouse-scale-image/style.module.css'
+import styles from './style.module.css'
 import { Project } from './data'
 
 export default function Double({
