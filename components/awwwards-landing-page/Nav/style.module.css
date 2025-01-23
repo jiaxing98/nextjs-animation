@@ -1,0 +1,64 @@
+.button {
+  @apply flex fixed h-20 w-20 rounded-[50%] justify-center items-center right-0 m-5 z-[2] bg-[#455CE9] cursor-pointer;
+}
+
+.burger {
+  width: 100%;
+  &::after,
+  &::before {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 40%;
+    margin: auto;
+    background-color: white;
+    position: relative;
+    transition: transform 0.3s;
+  }
+
+  &::after {
+    top: -5px;
+  }
+
+  &::before {
+    top: 5px;
+  }
+}
+
+.burgerActive {
+  &::after {
+    transform: rotate(45deg);
+    top: -1px;
+  }
+
+  &::before {
+    transform: rotate(-45deg);
+    top: 0px;
+  }
+}
+
+.menu {
+  @apply fixed h-screen top-0 right-0 text-white;
+  background-color: rgb(41, 41, 41);
+
+  .body {
+    @apply flex flex-col h-full justify-between p-[100px] box-border;
+
+    .nav {
+      @apply flex flex-col mt-20 gap-3 text-[56px];
+
+      .header {
+        @apply text-[11px] uppercase border-b mb-10;
+        color: rgb(153, 153, 153);
+        border-bottom: rgb(153, 153, 153);
+      }
+
+      a {
+        @apply text-white font-light no-underline;
+      }
+    }
+  }
+  .footer {
+    @apply flex w-full justify-between gap-10 text-xs;
+  }
+}
