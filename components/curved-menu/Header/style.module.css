@@ -1,0 +1,38 @@
+.button {
+  @apply flex fixed h-20 w-20 rounded-[50%] justify-center items-center right-0 m-5 z-[2] bg-[#455CE9] cursor-pointer;
+}
+
+.burger {
+  width: 100%;
+  &::after,
+  &::before {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 40%;
+    margin: auto;
+    background-color: white;
+    position: relative;
+    transition: transform 0.3s;
+  }
+
+  &::after {
+    top: -5px;
+  }
+
+  &::before {
+    top: 5px;
+  }
+}
+
+.burgerActive {
+  &::after {
+    transform: rotate(45deg);
+    top: -1px;
+  }
+
+  &::before {
+    transform: rotate(-45deg);
+    top: 0px;
+  }
+}
