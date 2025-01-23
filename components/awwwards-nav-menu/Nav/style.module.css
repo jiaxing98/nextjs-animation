@@ -1,0 +1,37 @@
+.nav {
+  overflow: hidden;
+}
+
+.wrapper {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 80px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.imageContainer {
+  display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+  .wrapper {
+    margin-bottom: 0px;
+    justify-content: space-between;
+  }
+
+  .imageContainer {
+    display: block;
+    width: 500px;
+    height: 350px;
+    position: relative;
+  }
+
+  .imageContainer img {
+    object-fit: cover;
+  }
+}
