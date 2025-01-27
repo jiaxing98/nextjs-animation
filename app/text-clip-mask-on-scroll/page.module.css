@@ -1,0 +1,32 @@
+:root {
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity, 1)) /* #cbd5e1 */;
+}
+
+.main {
+  margin-bottom: 100vh;
+}
+
+.container {
+  position: relative;
+  height: 300vh;
+}
+
+.stickyMask {
+  display: flex;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  mask-image: url('/images/text-clip-mask-on-scroll/mask.svg');
+  mask-position: center center;
+  mask-repeat: no-repeat;
+  mask-size: 80%;
+}
+
+.stickyMask video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
