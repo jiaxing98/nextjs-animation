@@ -26,7 +26,7 @@ export default function Model() {
   return (
     <group scale={viewport.width / 3.75}>
       <Text
-        font={'/fonts/3d-glass-effect/PPNeueMontreal-Bold.otf'}
+        font={'/fonts/PPNeueMontreal-Bold.otf'}
         position={[0, 0, -1]}
         fontSize={0.5}
         color="white"
