@@ -19,7 +19,6 @@ export default function Page() {
 
       setTimeout(() => {
         setIsLoading(false)
-        console.log(isLoading)
         document.body.style.cursor = 'default'
         window.scrollTo(0, 0)
       }, 2000)
