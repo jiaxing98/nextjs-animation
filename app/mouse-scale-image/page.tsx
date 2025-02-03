@@ -1,4 +1,4 @@
-import { projects } from '@/components/mouse-scale-image/data'
+import { projects } from '@/types/mouse-scale-image'
 import Double from '@/components/mouse-scale-image/Double'
 import React from 'react'
 

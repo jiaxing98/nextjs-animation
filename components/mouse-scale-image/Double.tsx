@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import React, { useRef } from 'react'
 import styles from './style.module.css'
-import { Project } from './data'
+import { Project } from '../../types/mouse-scale-image'
 
 export default function Double({
   projects,
